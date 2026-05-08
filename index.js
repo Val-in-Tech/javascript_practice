@@ -188,3 +188,5 @@ resetBtn.onclick = function() {
     counter = 0;
     counterDisplay.textContent = counter;
 }
+
+
