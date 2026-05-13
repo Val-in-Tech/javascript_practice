@@ -168,25 +168,46 @@
 
 // COUNTER PROGRAM!!!~~~~
 
-const decreaseBtn = document.getElementById("decreaseBtn");
-const resetBtn = document.getElementById("resetBtn");
-const increaseBtn = document.getElementById("increaseBtn");
-const counterDisplay = document.getElementById("counterLabel");
-let counter = 0;
+// const decreaseBtn = document.getElementById("decreaseBtn");
+// const resetBtn = document.getElementById("resetBtn");
+// const increaseBtn = document.getElementById("increaseBtn");
+// const counterDisplay = document.getElementById("counterLabel");
+// let counter = 0;
 
-increaseBtn.onclick = function() {
-    counter++;
-    counterDisplay.textContent = counter;
-}
+// increaseBtn.onclick = function() {
+    // counter++;
+    // counterDisplay.textContent = counter;
+// }
 
-decreaseBtn.onclick = function() {
-    counter--;
-    counterDisplay.textContent = counter;
-}
+// decreaseBtn.onclick = function() {
+    // counter--;
+    // counterDisplay.textContent = counter;
+// }
 
-resetBtn.onclick = function() {
-    counter = 0;
-    counterDisplay.textContent = counter;
-}
+// resetBtn.onclick = function() {
+    // counter = 0;
+    // counterDisplay.textContent = counter;
+// }
 
 
+// MATH!!!~~~~ 
+// = a built-in object that has properties and methods for mathematical constants and functions.
+
+// Math.PI
+
+// console.log(Math.PI);
+// console.log(Math.E);
+
+let x = 10;
+let y = 2;
+let z;
+
+// z = Math.round(x); // rounds to the nearest integer
+// z = Math.floor(x); // rounds down to the nearest integer
+// z = Math.ceil(x); // rounds up to the nearest integer
+// z = Math.trunc(x); // removes the decimal part and returns the integer part
+// z = Math.pow(x, y); // returns the value of x raised to the power of y
+// z = Math.floor(x); 
+// z = Math.sqrt(x); // returns the square root of x
+z = Math.log(x); // returns the natural logarithm of x
+console.log(z);
