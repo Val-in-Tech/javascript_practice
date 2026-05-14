@@ -198,9 +198,9 @@
 // console.log(Math.PI);
 // console.log(Math.E);
 
-let x = 10;
-let y = 2;
-let z;
+// let x = 3;
+// let y = 2;
+// let z = 1;
 
 // z = Math.round(x); // rounds to the nearest integer
 // z = Math.floor(x); // rounds down to the nearest integer
@@ -209,5 +209,21 @@ let z;
 // z = Math.pow(x, y); // returns the value of x raised to the power of y
 // z = Math.floor(x); 
 // z = Math.sqrt(x); // returns the square root of x
-z = Math.log(x); // returns the natural logarithm of x
-console.log(z);
+// z = Math.log(x); // returns the natural logarithm of x
+// z = Math.sin(x); // returns the sine of x (x is in radians)
+// z = Math.cos(x); // returns the cosine of x (x is in radians)
+// z = Math.tan(x); // returns the tangent of x (x is in radians)
+// z = Math.abs(x); // returns the absolute value of x
+// z =  Math.sign(x); // returns the sign of x (1 for positive, -1 for negative, 0 for zero)
+// let max = Math.max(x, y, z); // returns the largest of the given numbers
+// let min = Math.min(x, y, z); // returns the smallest of the given numbers
+
+// console.log(x);
+// console.log(max);
+// console.log(min);
+
+// RANDOM NUMBER GENERATOR!!!~~~~
+
+let randomNum = Math.floor(Math.random() * 6); // returns a random number between 0 (inclusive) and 6 (exclusive)
+
+console.log(randomNum);
