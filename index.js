@@ -273,3 +273,39 @@
 // else{
     // console.log("Good afternoon!");
 //}
+
+// let isStudent = false;
+
+// if(isStudent){
+    // console.log("Welcome to your class!");
+// }
+// else{
+    // console.log("Please sign up for a major.");
+// }
+
+let age = 101;
+let hasLicense = true;
+
+if(age >= 16 && hasLicense){
+    console.log("You are able to drive!");
+
+    if(age > 100){
+    console.log("You are TOO OLD to safely drive.");
+}
+else if(age == 0){
+    console.log("You are TOO YOUNG to drive.");
+}
+    if(hasLicense){
+        console.log("You have a driver's license.");
+    }
+    else{
+        console.log("You do not have a driver's license.");
+    }
+
+} else if(age < 0){
+    console.log("Age cannot be a negative number.");
+}
+
+else {
+    console.log("You are not old enough to drive.");
+}
